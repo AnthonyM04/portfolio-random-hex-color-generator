@@ -1,0 +1,47 @@
+/* normalize */
+*, *::before, *::after {margin: 0; padding: 0; box-sizing: inherit;}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://www.dropbox.com/s/ueb3llma4j0jbt9/TimesNewRamen-Regular.ttf?dl=0');
+
+
+body {
+    background-color: #f4f5f6;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayBox, button {
+    border: 3px solid #74747423;
+}
+
+#displayBox {
+    width: 40%;
+    background-color: #f4f5f656;
+    padding: 40px;
+    border-radius: 14px;
+}
+
+header > h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    filter:drop-shadow(0 0 1.1rem white);
+    font-family: 'Syne Mono', monospace; 
+}
+
+button {
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 14px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Times New Ramen';
+}
+
+
